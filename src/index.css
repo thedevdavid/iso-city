@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --tile-width: 64px;
+  --tile-height: 64px;
+}
+
+body {
+  margin: 0;
+  overflow: hidden;
+}
+
+.iso-grid {
+  transform-style: preserve-3d;
+  perspective: 1000px;
+}
